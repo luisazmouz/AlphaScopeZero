@@ -1,6 +1,6 @@
 how to use git
 
-change directory into the folder (terrminal)
+change directory into the folder (terminal)
 
 Mac OS X: cd "drag folder here, path will appear"
 

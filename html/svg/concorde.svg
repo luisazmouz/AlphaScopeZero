@@ -1,17 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="648" viewBox="0 0 1440 648">
   <defs>
     <style>
+
+      .cls-2:nth-child(40n){
+          fill: #3bb53c;
+      }
+
+      .cls-2{
+        fill: #999999;
+      }
+
+      .cls-3{
+        fill-rule: evenodd;
+      }
       .cls-1, .cls-3 {
         fill: #c69c6d;
       }
 
-      .cls-2, .cls-4 {
-        fill: #898989;
-      }
 
-      .cls-3, .cls-4 {
-        fill-rule: evenodd;
-      }
     </style>
   </defs>
   <rect id="Rounded_Rectangle_1" data-name="Rounded Rectangle 1" class="cls-1" x="1379" y="452" width="61" height="49" rx="10" ry="10"/>
@@ -473,9 +479,9 @@
   <path id="Rounded_Rectangle_2_copy_25" data-name="Rounded Rectangle 2 copy 25" class="cls-3" d="M169.121,467h43.758c2.828,0,5.121,3.134,5.121,7s-2.293,7-5.121,7H169.121c-2.828,0-5.121-3.134-5.121-7S166.293,467,169.121,467Z"/>
   <path id="Rounded_Rectangle_3_copy_6" data-name="Rounded Rectangle 3 copy 6" class="cls-3" d="M108,215.882v13.236c0,3.248-3.134,5.882-7,5.882s-7-2.634-7-5.882V215.882c0-3.248,3.134-5.882,7-5.882S108,212.634,108,215.882Z"/>
   <rect id="Rounded_Rectangle_1_copy_2" data-name="Rounded Rectangle 1 copy 2" class="cls-1" x="160" y="197" width="61" height="49" rx="10" ry="10"/>
-  <path id="Rectangle_2_copy_515" data-name="Rectangle 2 copy 515" class="cls-4" d="M157,210v25H143V210h14Z"/>
-  <path id="Rectangle_2_copy_516" data-name="Rectangle 2 copy 516" class="cls-4" d="M140,210v25H126V210h14Z"/>
-  <path id="Rectangle_2_copy_517" data-name="Rectangle 2 copy 517" class="cls-4" d="M123,210v25H109V210h14Z"/>
+  <path id="Rectangle_2_copy_515" data-name="Rectangle 2 copy 515" class="cls-2" d="M157,210v25H143V210h14Z"/>
+  <path id="Rectangle_2_copy_516" data-name="Rectangle 2 copy 516" class="cls-2" d="M140,210v25H126V210h14Z"/>
+  <path id="Rectangle_2_copy_517" data-name="Rectangle 2 copy 517" class="cls-2" d="M123,210v25H109V210h14Z"/>
   <rect id="Rectangle_2_copy_417" data-name="Rectangle 2 copy 417" class="cls-2" x="192" y="601" width="25" height="14"/>
   <rect id="Rectangle_2_copy_418" data-name="Rectangle 2 copy 418" class="cls-2" x="192" y="618" width="25" height="14"/>
   <rect id="Rectangle_2_copy_419" data-name="Rectangle 2 copy 419" class="cls-2" x="192" y="584" width="25" height="14"/>
@@ -583,58 +589,58 @@
   <rect id="Rectangle_2_copy_537" data-name="Rectangle 2 copy 537" class="cls-2" x="852" y="72" width="25" height="14"/>
   <rect id="Rectangle_2_copy_538" data-name="Rectangle 2 copy 538" class="cls-2" x="852" y="55" width="25" height="14"/>
   <rect id="Rectangle_2_copy_539" data-name="Rectangle 2 copy 539" class="cls-2" x="852" y="38" width="25" height="14"/>
-  <path id="Rectangle_2_copy_518" data-name="Rectangle 2 copy 518" class="cls-4" d="M1279,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_519" data-name="Rectangle 2 copy 519" class="cls-4" d="M1262,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_520" data-name="Rectangle 2 copy 520" class="cls-4" d="M1245,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_521" data-name="Rectangle 2 copy 521" class="cls-4" d="M1228,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_522" data-name="Rectangle 2 copy 522" class="cls-4" d="M1211,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_523" data-name="Rectangle 2 copy 523" class="cls-4" d="M1194,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_524" data-name="Rectangle 2 copy 524" class="cls-4" d="M1177,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_525" data-name="Rectangle 2 copy 525" class="cls-4" d="M1160,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_526" data-name="Rectangle 2 copy 526" class="cls-4" d="M1143,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_527" data-name="Rectangle 2 copy 527" class="cls-4" d="M1126,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_528" data-name="Rectangle 2 copy 528" class="cls-4" d="M1109,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_529" data-name="Rectangle 2 copy 529" class="cls-4" d="M1077,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_530" data-name="Rectangle 2 copy 530" class="cls-4" d="M1060,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_531" data-name="Rectangle 2 copy 531" class="cls-4" d="M1043,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_532" data-name="Rectangle 2 copy 532" class="cls-4" d="M1026,0V25h-14V0h14Z"/>
-  <path id="Rectangle_2_copy_533" data-name="Rectangle 2 copy 533" class="cls-4" d="M1009,0V25H995V0h14Z"/>
-  <path id="Rectangle_2_copy_534" data-name="Rectangle 2 copy 534" class="cls-4" d="M992,0V25H978V0h14Z"/>
-  <path id="Rectangle_2_copy_535" data-name="Rectangle 2 copy 535" class="cls-4" d="M975,0V25H961V0h14Z"/>
-  <path id="Rectangle_2_copy_536" data-name="Rectangle 2 copy 536" class="cls-4" d="M958,0V25H944V0h14Z"/>
-  <path id="Rectangle_2_copy_540" data-name="Rectangle 2 copy 540" class="cls-4" d="M832,91v25H818V91h14Z"/>
-  <path id="Rectangle_2_copy_541" data-name="Rectangle 2 copy 541" class="cls-4" d="M815,91v25H801V91h14Z"/>
-  <path id="Rectangle_2_copy_542" data-name="Rectangle 2 copy 542" class="cls-4" d="M798,91v25H784V91h14Z"/>
-  <path id="Rectangle_2_copy_543" data-name="Rectangle 2 copy 543" class="cls-4" d="M781,91v25H767V91h14Z"/>
-  <path id="Rectangle_2_copy_544" data-name="Rectangle 2 copy 544" class="cls-4" d="M764,91v25H750V91h14Z"/>
-  <path id="Rectangle_2_copy_545" data-name="Rectangle 2 copy 545" class="cls-4" d="M747,91v25H733V91h14Z"/>
-  <path id="Rectangle_2_copy_546" data-name="Rectangle 2 copy 546" class="cls-4" d="M730,91v25H716V91h14Z"/>
-  <path id="Rectangle_2_copy_547" data-name="Rectangle 2 copy 547" class="cls-4" d="M713,91v25H699V91h14Z"/>
-  <path id="Rectangle_2_copy_548" data-name="Rectangle 2 copy 548" class="cls-4" d="M696,91v25H682V91h14Z"/>
-  <path id="Rectangle_2_copy_549" data-name="Rectangle 2 copy 549" class="cls-4" d="M679,91v25H665V91h14Z"/>
-  <path id="Rectangle_2_copy_550" data-name="Rectangle 2 copy 550" class="cls-4" d="M662,91v25H648V91h14Z"/>
-  <path id="Rectangle_2_copy_551" data-name="Rectangle 2 copy 551" class="cls-4" d="M645,91v25H631V91h14Z"/>
-  <path id="Rectangle_2_copy_552" data-name="Rectangle 2 copy 552" class="cls-4" d="M628,91v25H614V91h14Z"/>
-  <path id="Rectangle_2_copy_553" data-name="Rectangle 2 copy 553" class="cls-4" d="M596,91v25H582V91h14Z"/>
-  <path id="Rectangle_2_copy_554" data-name="Rectangle 2 copy 554" class="cls-4" d="M579,91v25H565V91h14Z"/>
-  <path id="Rectangle_2_copy_555" data-name="Rectangle 2 copy 555" class="cls-4" d="M562,91v25H548V91h14Z"/>
-  <path id="Rectangle_2_copy_556" data-name="Rectangle 2 copy 556" class="cls-4" d="M545,91v25H531V91h14Z"/>
-  <path id="Rectangle_2_copy_557" data-name="Rectangle 2 copy 557" class="cls-4" d="M528,91v25H514V91h14Z"/>
-  <path id="Rectangle_2_copy_558" data-name="Rectangle 2 copy 558" class="cls-4" d="M511,91v25H497V91h14Z"/>
-  <path id="Rectangle_2_copy_559" data-name="Rectangle 2 copy 559" class="cls-4" d="M494,91v25H480V91h14Z"/>
-  <path id="Rectangle_2_copy_560" data-name="Rectangle 2 copy 560" class="cls-4" d="M477,91v25H463V91h14Z"/>
-  <path id="Rectangle_2_copy_561" data-name="Rectangle 2 copy 561" class="cls-4" d="M460,91v25H446V91h14Z"/>
-  <path id="Rectangle_2_copy_562" data-name="Rectangle 2 copy 562" class="cls-4" d="M443,91v25H429V91h14Z"/>
-  <path id="Rectangle_2_copy_563" data-name="Rectangle 2 copy 563" class="cls-4" d="M426,91v25H412V91h14Z"/>
-  <path id="Rectangle_2_copy_564" data-name="Rectangle 2 copy 564" class="cls-4" d="M381,91v25H367V91h14Z"/>
-  <path id="Rectangle_2_copy_565" data-name="Rectangle 2 copy 565" class="cls-4" d="M364,91v25H350V91h14Z"/>
-  <path id="Rectangle_2_copy_566" data-name="Rectangle 2 copy 566" class="cls-4" d="M347,91v25H333V91h14Z"/>
-  <path id="Rectangle_2_copy_567" data-name="Rectangle 2 copy 567" class="cls-4" d="M330,91v25H316V91h14Z"/>
-  <path id="Rectangle_2_copy_568" data-name="Rectangle 2 copy 568" class="cls-4" d="M313,91v25H299V91h14Z"/>
-  <path id="Rectangle_2_copy_569" data-name="Rectangle 2 copy 569" class="cls-4" d="M296,91v25H282V91h14Z"/>
-  <path id="Rectangle_2_copy_570" data-name="Rectangle 2 copy 570" class="cls-4" d="M279,91v25H265V91h14Z"/>
-  <path id="Rectangle_2_copy_571" data-name="Rectangle 2 copy 571" class="cls-4" d="M262,91v25H248V91h14Z"/>
-  <path id="Rectangle_2_copy_572" data-name="Rectangle 2 copy 572" class="cls-4" d="M245,91v25H231V91h14Z"/>
+  <path id="Rectangle_2_copy_518" data-name="Rectangle 2 copy 518" class="cls-2" d="M1279,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_519" data-name="Rectangle 2 copy 519" class="cls-2" d="M1262,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_520" data-name="Rectangle 2 copy 520" class="cls-2" d="M1245,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_521" data-name="Rectangle 2 copy 521" class="cls-2" d="M1228,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_522" data-name="Rectangle 2 copy 522" class="cls-2" d="M1211,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_523" data-name="Rectangle 2 copy 523" class="cls-2" d="M1194,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_524" data-name="Rectangle 2 copy 524" class="cls-2" d="M1177,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_525" data-name="Rectangle 2 copy 525" class="cls-2" d="M1160,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_526" data-name="Rectangle 2 copy 526" class="cls-2" d="M1143,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_527" data-name="Rectangle 2 copy 527" class="cls-2" d="M1126,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_528" data-name="Rectangle 2 copy 528" class="cls-2" d="M1109,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_529" data-name="Rectangle 2 copy 529" class="cls-2" d="M1077,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_530" data-name="Rectangle 2 copy 530" class="cls-2" d="M1060,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_531" data-name="Rectangle 2 copy 531" class="cls-2" d="M1043,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_532" data-name="Rectangle 2 copy 532" class="cls-2" d="M1026,0V25h-14V0h14Z"/>
+  <path id="Rectangle_2_copy_533" data-name="Rectangle 2 copy 533" class="cls-2" d="M1009,0V25H995V0h14Z"/>
+  <path id="Rectangle_2_copy_534" data-name="Rectangle 2 copy 534" class="cls-2" d="M992,0V25H978V0h14Z"/>
+  <path id="Rectangle_2_copy_535" data-name="Rectangle 2 copy 535" class="cls-2" d="M975,0V25H961V0h14Z"/>
+  <path id="Rectangle_2_copy_536" data-name="Rectangle 2 copy 536" class="cls-2" d="M958,0V25H944V0h14Z"/>
+  <path id="Rectangle_2_copy_540" data-name="Rectangle 2 copy 540" class="cls-2" d="M832,91v25H818V91h14Z"/>
+  <path id="Rectangle_2_copy_541" data-name="Rectangle 2 copy 541" class="cls-2" d="M815,91v25H801V91h14Z"/>
+  <path id="Rectangle_2_copy_542" data-name="Rectangle 2 copy 542" class="cls-2" d="M798,91v25H784V91h14Z"/>
+  <path id="Rectangle_2_copy_543" data-name="Rectangle 2 copy 543" class="cls-2" d="M781,91v25H767V91h14Z"/>
+  <path id="Rectangle_2_copy_544" data-name="Rectangle 2 copy 544" class="cls-2" d="M764,91v25H750V91h14Z"/>
+  <path id="Rectangle_2_copy_545" data-name="Rectangle 2 copy 545" class="cls-2" d="M747,91v25H733V91h14Z"/>
+  <path id="Rectangle_2_copy_546" data-name="Rectangle 2 copy 546" class="cls-2" d="M730,91v25H716V91h14Z"/>
+  <path id="Rectangle_2_copy_547" data-name="Rectangle 2 copy 547" class="cls-2" d="M713,91v25H699V91h14Z"/>
+  <path id="Rectangle_2_copy_548" data-name="Rectangle 2 copy 548" class="cls-2" d="M696,91v25H682V91h14Z"/>
+  <path id="Rectangle_2_copy_549" data-name="Rectangle 2 copy 549" class="cls-2" d="M679,91v25H665V91h14Z"/>
+  <path id="Rectangle_2_copy_550" data-name="Rectangle 2 copy 550" class="cls-2" d="M662,91v25H648V91h14Z"/>
+  <path id="Rectangle_2_copy_551" data-name="Rectangle 2 copy 551" class="cls-2" d="M645,91v25H631V91h14Z"/>
+  <path id="Rectangle_2_copy_552" data-name="Rectangle 2 copy 552" class="cls-2" d="M628,91v25H614V91h14Z"/>
+  <path id="Rectangle_2_copy_553" data-name="Rectangle 2 copy 553" class="cls-2" d="M596,91v25H582V91h14Z"/>
+  <path id="Rectangle_2_copy_554" data-name="Rectangle 2 copy 554" class="cls-2" d="M579,91v25H565V91h14Z"/>
+  <path id="Rectangle_2_copy_555" data-name="Rectangle 2 copy 555" class="cls-2" d="M562,91v25H548V91h14Z"/>
+  <path id="Rectangle_2_copy_556" data-name="Rectangle 2 copy 556" class="cls-2" d="M545,91v25H531V91h14Z"/>
+  <path id="Rectangle_2_copy_557" data-name="Rectangle 2 copy 557" class="cls-2" d="M528,91v25H514V91h14Z"/>
+  <path id="Rectangle_2_copy_558" data-name="Rectangle 2 copy 558" class="cls-2" d="M511,91v25H497V91h14Z"/>
+  <path id="Rectangle_2_copy_559" data-name="Rectangle 2 copy 559" class="cls-2" d="M494,91v25H480V91h14Z"/>
+  <path id="Rectangle_2_copy_560" data-name="Rectangle 2 copy 560" class="cls-2" d="M477,91v25H463V91h14Z"/>
+  <path id="Rectangle_2_copy_561" data-name="Rectangle 2 copy 561" class="cls-2" d="M460,91v25H446V91h14Z"/>
+  <path id="Rectangle_2_copy_562" data-name="Rectangle 2 copy 562" class="cls-2" d="M443,91v25H429V91h14Z"/>
+  <path id="Rectangle_2_copy_563" data-name="Rectangle 2 copy 563" class="cls-2" d="M426,91v25H412V91h14Z"/>
+  <path id="Rectangle_2_copy_564" data-name="Rectangle 2 copy 564" class="cls-2" d="M381,91v25H367V91h14Z"/>
+  <path id="Rectangle_2_copy_565" data-name="Rectangle 2 copy 565" class="cls-2" d="M364,91v25H350V91h14Z"/>
+  <path id="Rectangle_2_copy_566" data-name="Rectangle 2 copy 566" class="cls-2" d="M347,91v25H333V91h14Z"/>
+  <path id="Rectangle_2_copy_567" data-name="Rectangle 2 copy 567" class="cls-2" d="M330,91v25H316V91h14Z"/>
+  <path id="Rectangle_2_copy_568" data-name="Rectangle 2 copy 568" class="cls-2" d="M313,91v25H299V91h14Z"/>
+  <path id="Rectangle_2_copy_569" data-name="Rectangle 2 copy 569" class="cls-2" d="M296,91v25H282V91h14Z"/>
+  <path id="Rectangle_2_copy_570" data-name="Rectangle 2 copy 570" class="cls-2" d="M279,91v25H265V91h14Z"/>
+  <path id="Rectangle_2_copy_571" data-name="Rectangle 2 copy 571" class="cls-2" d="M262,91v25H248V91h14Z"/>
+  <path id="Rectangle_2_copy_572" data-name="Rectangle 2 copy 572" class="cls-2" d="M245,91v25H231V91h14Z"/>
   <rect id="Rounded_Rectangle_7" data-name="Rounded Rectangle 7" class="cls-1" x="382" y="91" width="28" height="25" rx="7.568" ry="7.568"/>
   <path id="Rounded_Rectangle_3_copy_7" data-name="Rounded Rectangle 3 copy 7" class="cls-3" d="M612,96.882v13.236c0,3.248-3.134,5.882-7,5.882s-7-2.634-7-5.882V96.882c0-3.249,3.134-5.882,7-5.882S612,93.634,612,96.882Z"/>
   <path id="Rounded_Rectangle_3_copy_8" data-name="Rounded Rectangle 3 copy 8" class="cls-3" d="M1092,5.882V19.118c0,3.249-3.13,5.882-7,5.882s-7-2.634-7-5.882V5.882c0-3.249,3.13-5.882,7-5.882S1092,2.634,1092,5.882Z"/>

@@ -1,16 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2016" height="864" viewBox="0 0 2016 864">
   <defs>
     <style>
-      .cls-1 {
-        fill: #c69c6d;
+      .cls-2:nth-child(20n){
+          fill: #3bb53c;
+      }
+
+      .cls-2 {
+        fill: #999999;
       }
 
       .cls-1, .cls-2 {
         fill-rule: evenodd;
       }
 
-      .cls-2 {
-        fill: #898989;
+      .cls-1 {
+        fill: #c69c6d;
       }
     </style>
   </defs>

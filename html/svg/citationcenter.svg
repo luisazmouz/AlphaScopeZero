@@ -1,8 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="468" height="432" viewBox="0 0 468 432">
   <defs>
     <style>
+    .cls-1:nth-child(10n){
+          fill: #3bb53c;
+      }
+
       .cls-1 {
-        fill: #898989;
+        fill: #999999;
       }
 
       .cls-1, .cls-2 {

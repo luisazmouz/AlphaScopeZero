@@ -236,12 +236,20 @@ input[type=submit]:hover {
 
 	opacity: 0;
     animation: fadein 250ms ease-in 0ms forwards; 
+
+    -webkit-transition: color 100ms ease-out;
+  	-moz-transition: color 100ms ease-out;
+ 	-o-transition: color 100ms ease-out;
+  	transition: color 100ms ease-out;
+
 }
 
 .navText:hover{
 	cursor: pointer;
 	color: #f97268;
 	outline: 
+ 
+
 }
 
 

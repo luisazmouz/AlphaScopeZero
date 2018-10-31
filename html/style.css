@@ -17,6 +17,16 @@ input {
 	/*#e5e2df;*/
 
 
+h1{
+	font-size: 26px;
+
+}
+h2{
+
+}
+h3{
+
+}
 
 
 body{
@@ -24,7 +34,7 @@ body{
 	/*font-family: 'Overpass Mono', monospace;*/
 	font-weight: 100;
 	letter-spacing: 1px;
-	font-size: 32px;
+	font-size: 18px;
 	text-align: center;
 	margin: 0px;
 	padding: 0px;
@@ -35,7 +45,6 @@ body{
 	user-select: none;
 	height: auto;
 	width: 100%;
-
 
 	
 }
@@ -48,17 +57,15 @@ body{
     font-size: 20px;
     width: 100%;
     top: 30px;
-    margin: 0 auto;
     font-weight: 100;
-    height: auto;
+    height: 500px;
     font-family: 'Maitree', serif;
     -webkit-user-select: auto;
     -moz-user-select: auto;
     user-select: auto;
     opacity: 0;
+
     animation: fadein 500ms ease-in 600ms forwards; 
-
-
 }
 
 .footer{
@@ -110,7 +117,7 @@ body{
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
-	height: 250px;
+	height: 275px;
 	width: 350px;
 	background: #edeeef;
 	margin: auto;
@@ -151,10 +158,9 @@ input[type=submit] {
     color: grey;
     padding: 10px 20px;
     border: none;
-
     cursor: pointer;
     display: inline-block;
-    border-radius: 0px;
+    border-radius: 2px;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -168,19 +174,22 @@ input[type=submit]:hover {
 }
 
 
+.homePageMaps:hover{
+	width: 200%;
+}
+
 
 
 .map{
-    text-align: center;    
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
     /*pointer-events: none;*/
     width: 50%;
-  	padding: 50px;
-    float: none;
     opacity: 0;
+  	margin-top: 40px;
     animation: fadein 600ms ease-in 1000ms forwards; 
+
 }
 
 .menu{
@@ -222,7 +231,7 @@ input[type=submit]:hover {
 	margin: 8px;
 	font-weight: 900;
 	font-family: 'Alegreya Sans SC', sans-serif;
-	color: #000000;
+	color: #FFF;
 	text-decoration: none;
 
 	opacity: 0;
@@ -249,7 +258,7 @@ input[type=submit]:hover {
 
 /*---------screen sizes---------*/
 
-@media ( max-width : 800px ){
+@media ( max-width : 950px ){
 	.navText{
 		display: none;
 		position: relative;

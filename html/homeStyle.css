@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300|Cormorant+Garamond');
 @import url('https://fonts.googleapis.com/css?family=Maitree:300|Spectral:200|Overpass+Mono|Martel');
-/* CSS Document style sheet for map pages */
+/* CSS Document */
 
-/*no default appearances please*/
+/*no default appearances s'il te plait*/
 input {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -16,8 +16,10 @@ input {
 	background: rgba(43,56,75,.2);
 	/*#e5e2df;*/
 
+
 h1{
 	font-size: 26px;
+
 }
 
 body{
@@ -36,8 +38,8 @@ body{
 	user-select: none;
 	height: auto;
 	width: 100%;
-
 }
+
 
 .container{
     position: relative;
@@ -52,6 +54,8 @@ body{
     -webkit-user-select: auto;
     -moz-user-select: auto;
     user-select: auto;
+    opacity: 0;
+    animation: fadein 500ms ease-in 600ms forwards; 
 }
 
 .footer{
@@ -62,7 +66,8 @@ body{
 	bottom:0;
 	width:100%;
 	height:80px;   /* Height of the footer */
-	box-shadow: 0 50vh 0 50vh rgba(43,56,75,.8);
+	box-shadow: 0 50vh 0 50vh rgb(43,56,75);
+	opacity: .8;
 	text-align: left;
 }
 
@@ -161,6 +166,7 @@ input[type=submit]:hover {
     user-select: none;
     /*pointer-events: none;*/
     width: 50%;
+    opacity: 0;
   	margin-top: 40px;
     animation: fadein 600ms ease-in 1000ms forwards; 
 
@@ -186,8 +192,8 @@ input[type=submit]:hover {
 	text-transform: capitalize;
     color: #fff; 
     text-decoration: none;
-
- 
+    opacity: 0;
+    animation: fadein 500ms ease-in 300ms forwards; 
     height: 65px;
     width: 100%;
     margin: 0;
@@ -208,6 +214,9 @@ input[type=submit]:hover {
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: #FFF;
 	text-decoration: none;
+	opacity: 0;
+    animation: fadein 250ms ease-in 0ms forwards; 
+
 	transition: .5s;
 
 }
@@ -217,6 +226,17 @@ input[type=submit]:hover {
 	color: rgba(43,56,75, .7);
 	transition: .2s; 
 
+}
+
+
+
+@keyframes fadein {
+	from{ 
+    	opacity: 0;
+    }
+    to{
+    	opacity: 1;
+    }
 }
 
 
@@ -255,6 +275,7 @@ input[type=submit]:hover {
 
 	#body{
 		/*sidebar color*/
+    	opacity: 0;
 		height:  auto;
 	}
 

@@ -125,11 +125,13 @@ input[type=text], select, textarea {
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 4px;
+    transition: .2s;
 
 }
 
 input[type=text]:focus{
-	border-left: 1px solid #f97268;
+	border-left: 2px solid #f97268;
+	transition: .2s;
 }
 textarea:focus{
 	border-left: 1px solid #f97268;
@@ -144,8 +146,8 @@ input[type=submit] {
     border: none;
     cursor: pointer;
     display: inline-block;
-    border-radius: 2px;
-  	transition: 0.3s;
+    border-radius: 4px;
+  	transition: 0.2s;
 }
 
 
@@ -154,7 +156,7 @@ input[type=submit]:hover {
     text-align: center;
     background-color: #f97268;
     color: white;
-    transition: .3s;
+    transition: .5s;
 
 
 }

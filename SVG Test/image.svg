@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="432" viewBox="0 0 468 432">
+
+
+  <defs>
+    <style>
+    .cls-1:nth-child(10n){
+          fill: #3bb53c;
+      }
+
+      .cls-1 {
+        fill: #999999;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c69c6d;
+      }
+    </style>
+
+    <script type="text/javascript" src="script.js"></script>
+  </defs>
+
+  <path id="spot_700" data-name="spot 700" class="cls-1" d="M423,45V70H409V45h14Z"/>
+  <path id="spot_701" data-name="spot 701" class="cls-1" d="M406,45V70H392V45h14Z"/>
+  <path id="spot_702" data-name="spot 702" class="cls-1" d="M389,45V70H375V45h14Z"/>
+  <path id="spot_703" data-name="spot 703" class="cls-1" d="M372,45V70H358V45h14Z"/>
+  <path id="spot_704" data-name="spot 704" class="cls-1" d="M355,45V70H341V45h14Z"/>
+  <path id="spot_705" data-name="spot 705" class="cls-1" d="M338,45V70H324V45h14Z"/>
+  <path id="spot_706" data-name="spot 706" class="cls-1" d="M321,45V70H307V45h14Z"/>
+  <path id="spot_707" data-name="spot 707" class="cls-1" d="M304,45V70H290V45h14Z"/>
+  <path id="spot_708" data-name="spot 708" class="cls-1" d="M287,45V70H273V45h14Z"/>
+  <path id="spot_709" data-name="spot 709" class="cls-1" d="M270,45V70H256V45h14Z"/>
+  <path id="spot_710" data-name="spot 710" class="cls-1" d="M253,45V70H239V45h14Z"/>
+  <path id="spot_711" data-name="spot 711" class="cls-1" d="M236,45V70H222V45h14Z"/>
+  <path id="spot_712" data-name="spot 712" class="cls-1" d="M219,45V70H205V45h14Z"/>
+  <path id="spot_713" data-name="spot 713" class="cls-1" d="M202,45V70H188V45h14Z"/>
+  <path id="spot_714" data-name="spot 714" class="cls-1" d="M185,45V70H171V45h14Z"/>
+  <path id="spot_715" data-name="spot 715" class="cls-1" d="M168,45V70H154V45h14Z"/>
+  <path id="spot_716" data-name="spot 716" class="cls-1" d="M151,45V70H137V45h14Z"/>
+  <path id="spot_717" data-name="spot 717" class="cls-1" d="M134,45V70H120V45h14Z"/>
+  <path id="spot_718" data-name="spot 718" class="cls-1" d="M117,45V70H103V45h14Z"/>
+  <path id="spot_719" data-name="spot 719" class="cls-1" d="M100,45V70H86V45h14Z"/>
+  <path id="Rounded_Rectangle_3_copy_27" data-name="Rounded Rectangle 3 copy 27" class="cls-2" d="M84,135.706v28.588C84,171.311,80.866,177,77,177s-7-5.689-7-12.706V135.706C70,128.689,73.134,123,77,123S84,128.689,84,135.706Z"/>
+  <path id="Rounded_Rectangle_3_copy_33" data-name="Rounded Rectangle 3 copy 33" class="cls-2" d="M404,135.706v28.588c0,7.017-3.134,12.706-7,12.706s-7-5.689-7-12.706V135.706c0-7.017,3.134-12.706,7-12.706S404,128.689,404,135.706Z"/>
+  <path id="Rounded_Rectangle_3_copy_32" data-name="Rounded Rectangle 3 copy 32" class="cls-2" d="M389,158.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V158.118c0-3.379,3.134-6.118,7-6.118S389,154.739,389,158.118Z"/>
+  <path id="spot_720" data-name="spot 720" class="cls-1" d="M389,124v25H375V124h14Z"/>
+  <path id="spot_721" data-name="spot 721" class="cls-1" d="M372,124v25H358V124h14Z"/>
+  <path id="spot_722" data-name="spot 722" class="cls-1" d="M355,124v25H341V124h14Z"/>
+  <path id="spot_723" data-name="spot 723" class="cls-1" d="M338,124v25H324V124h14Z"/>
+  <path id="spot_724" data-name="spot 724" class="cls-1" d="M321,124v25H307V124h14Z"/>
+  <path id="spot_725" data-name="spot 725" class="cls-1" d="M304,124v25H290V124h14Z"/>
+  <path id="spot_726" data-name="spot 726" class="cls-1" d="M287,124v25H273V124h14Z"/>
+  <path id="spot_727" data-name="spot 727" class="cls-1" d="M270,124v25H256V124h14Z"/>
+  <path id="spot_728" data-name="spot 728" class="cls-1" d="M253,124v25H239V124h14Z"/>
+  <path id="spot_729" data-name="spot 729" class="cls-1" d="M236,124v25H222V124h14Z"/>
+  <path id="spot_730" data-name="spot 730" class="cls-1" d="M219,124v25H205V124h14Z"/>
+  <path id="spot_731" data-name="spot 731" class="cls-1" d="M202,124v25H188V124h14Z"/>
+  <path id="spot_732" data-name="spot 732" class="cls-1" d="M185,124v25H171V124h14Z"/>
+  <path id="spot_733" data-name="spot 733" class="cls-1" d="M168,124v25H154V124h14Z"/>
+  <path id="spot_734" data-name="spot 734" class="cls-1" d="M151,124v25H137V124h14Z"/>
+  <path id="spot_735" data-name="spot 735" class="cls-1" d="M134,124v25H120V124h14Z"/>
+  <path id="spot_736" data-name="spot 736" class="cls-1" d="M117,124v25H103V124h14Z"/>
+  <path id="spot_737" data-name="spot 737" class="cls-1" d="M100,124v25H86V124h14Z"/>
+  <path id="spot_739" data-name="spot 739" class="cls-1" d="M372,152v25H358V152h14Z"/>
+  <path id="spot_740" data-name="spot 740" class="cls-1" d="M355,152v25H341V152h14Z"/>
+  <path id="spot_741" data-name="spot 741" class="cls-1" d="M338,152v25H324V152h14Z"/>
+  <path id="spot_742" data-name="spot 742" class="cls-1" d="M321,152v25H307V152h14Z"/>
+  <path id="spot_743" data-name="spot 743" class="cls-1" d="M304,152v25H290V152h14Z"/>
+  <path id="spot_744" data-name="spot 744" class="cls-1" d="M287,152v25H273V152h14Z"/>
+  <path id="spot_745" data-name="spot 745" class="cls-1" d="M270,152v25H256V152h14Z"/>
+  <path id="spot_746" data-name="spot 746" class="cls-1" d="M253,152v25H239V152h14Z"/>
+  <path id="spot_747" data-name="spot 747" class="cls-1" d="M236,152v25H222V152h14Z"/>
+  <path id="spot_748" data-name="spot 748" class="cls-1" d="M219,152v25H205V152h14Z"/>
+  <path id="spot_749" data-name="spot 749" class="cls-1" d="M202,152v25H188V152h14Z"/>
+  <path id="spot_750" data-name="spot 750" class="cls-1" d="M185,152v25H171V152h14Z"/>
+  <path id="spot_751" data-name="spot 751" class="cls-1" d="M168,152v25H154V152h14Z"/>
+  <path id="spot_752" data-name="spot 752" class="cls-1" d="M151,152v25H137V152h14Z"/>
+  <path id="spot_753" data-name="spot 753" class="cls-1" d="M134,152v25H120V152h14Z"/>
+  <path id="spot_754" data-name="spot 754" class="cls-1" d="M117,152v25H103V152h14Z"/>
+  <path id="spot_755" data-name="spot 755" class="cls-1" d="M100,152v25H86V152h14Z"/>
+  <path id="Rounded_Rectangle_3_copy_28" data-name="Rounded Rectangle 3 copy 28" class="cls-2" d="M84,240.706v28.588C84,276.311,80.866,282,77,282s-7-5.689-7-12.706V240.706C70,233.689,73.134,228,77,228S84,233.689,84,240.706Z"/>
+  <path id="Rounded_Rectangle_3_copy_31" data-name="Rounded Rectangle 3 copy 31" class="cls-2" d="M336,240.706v28.588c0,7.017-3.134,12.706-7,12.706s-7-5.689-7-12.706V240.706c0-7.017,3.134-12.706,7-12.706S336,233.689,336,240.706Z"/>
+  <path id="Rounded_Rectangle_3_copy_30" data-name="Rounded Rectangle 3 copy 30" class="cls-2" d="M321,263.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V263.118c0-3.379,3.134-6.118,7-6.118S321,259.739,321,263.118Z"/>
+  <path id="spot_756" data-name="spot 756" class="cls-1" d="M321,229v25H307V229h14Z"/>
+  <path id="spot_757" data-name="spot 757" class="cls-1" d="M304,229v25H290V229h14Z"/>
+  <path id="spot_758" data-name="spot 758" class="cls-1" d="M287,229v25H273V229h14Z"/>
+  <path id="spot_759" data-name="spot 759" class="cls-1" d="M270,229v25H256V229h14Z"/>
+  <path id="spot_760" data-name="spot 760" class="cls-1" d="M253,229v25H239V229h14Z"/>
+  <path id="spot_761" data-name="spot 761" class="cls-1" d="M236,229v25H222V229h14Z"/>
+  <path id="spot_762" data-name="spot 762" class="cls-1" d="M219,229v25H205V229h14Z"/>
+  <path id="spot_763" data-name="spot 763" class="cls-1" d="M202,229v25H188V229h14Z"/>
+  <path id="spot_764" data-name="spot 764" class="cls-1" d="M185,229v25H171V229h14Z"/>
+  <path id="spot_765" data-name="spot 765" class="cls-1" d="M168,229v25H154V229h14Z"/>
+  <path id="spot_766" data-name="spot 766" class="cls-1" d="M151,229v25H137V229h14Z"/>
+  <path id="spot_767" data-name="spot 767" class="cls-1" d="M134,229v25H120V229h14Z"/>
+  <path id="spot_768" data-name="spot 768" class="cls-1" d="M117,229v25H103V229h14Z"/>
+  <path id="spot_769" data-name="spot 769" class="cls-1" d="M100,229v25H86V229h14Z"/>
+  <path id="spot_771" data-name="spot 771" class="cls-1" d="M304,257v25H290V257h14Z"/>
+  <path id="spot_772" data-name="spot 772" class="cls-1" d="M287,257v25H273V257h14Z"/>
+  <path id="spot_773" data-name="spot 773" class="cls-1" d="M270,257v25H256V257h14Z"/>
+  <path id="spot_774" data-name="spot 774" class="cls-1" d="M253,257v25H239V257h14Z"/>
+  <path id="spot_775" data-name="spot 775" class="cls-1" d="M236,257v25H222V257h14Z"/>
+  <path id="spot_776" data-name="spot 776" class="cls-1" d="M219,257v25H205V257h14Z"/>
+  <path id="spot_777" data-name="spot 777" class="cls-1" d="M202,257v25H188V257h14Z"/>
+  <path id="spot_778" data-name="spot 778" class="cls-1" d="M185,257v25H171V257h14Z"/>
+  <path id="spot_779" data-name="spot 779" class="cls-1" d="M168,257v25H154V257h14Z"/>
+  <path id="spot_780" data-name="spot 780" class="cls-1" d="M151,257v25H137V257h14Z"/>
+  <path id="spot_781" data-name="spot 781" class="cls-1" d="M134,257v25H120V257h14Z"/>
+  <path id="spot_782" data-name="spot 782" class="cls-1" d="M117,257v25H103V257h14Z"/>
+  <path id="spot_783" data-name="spot 783" class="cls-1" d="M100,257v25H86V257h14Z"/>
+  <path id="Rounded_Rectangle_3_copy_29" data-name="Rounded Rectangle 3 copy 29" class="cls-2" d="M84,340.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V340.118c0-3.379,3.134-6.118,7-6.118S84,336.739,84,340.118Z"/>
+  <path id="Rounded_Rectangle_3_copy_34" data-name="Rounded Rectangle 3 copy 34" class="cls-2" d="M268,340.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V340.118c0-3.379,3.134-6.118,7-6.118S268,336.739,268,340.118Z"/>
+  <path id="spot_784" data-name="spot 784" class="cls-1" d="M253,335v25H239V335h14Z"/>
+  <path id="spot_785" data-name="spot 785" class="cls-1" d="M236,335v25H222V335h14Z"/>
+  <path id="spot_786" data-name="spot 786" class="cls-1" d="M219,335v25H205V335h14Z"/>
+  <path id="spot_787" data-name="spot 787" class="cls-1" d="M202,335v25H188V335h14Z"/>
+  <path id="spot_788" data-name="spot 788" class="cls-1" d="M185,335v25H171V335h14Z"/>
+  <path id="spot_789" data-name="spot 789" class="cls-1" d="M168,335v25H154V335h14Z"/>
+  <path id="spot_790" data-name="spot 790" class="cls-1" d="M151,335v25H137V335h14Z"/>
+  <path id="spot_791" data-name="spot 791" class="cls-1" d="M134,335v25H120V335h14Z"/>
+  <path id="spot_792" data-name="spot 792" class="cls-1" d="M117,335v25H103V335h14Z"/>
+  <path id="spot_793" data-name="spot 793" class="cls-1" d="M100,335v25H86V335h14Z"/>
+</svg>

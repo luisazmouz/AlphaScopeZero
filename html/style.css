@@ -124,10 +124,11 @@ input[type=text], select, textarea {
 }
 
 input[type=text]:focus{
-	border-left: 1px solid #f97268;
+	border-left: 2px solid #f97268;
 }
+
 textarea:focus{
-	border-left: 1px solid #f97268;
+	border-left: 2px solid #f97268;
 }
 
 

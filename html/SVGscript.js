@@ -13,8 +13,8 @@
       total = i;
     }
     //sets total and open to 0
-    document.getElementById("total").innerHTML = open.length;
-    document.getElementById("open").innerHTML = 0;
+      document.getElementById("total").innerHTML = open.length;
+      document.getElementById("open").innerHTML = 0;
 
     console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
     //generates random number range 0~15

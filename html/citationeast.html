@@ -8,6 +8,7 @@
 <meta charset="UTF-8"> 
 <html lang="en">
 <link rel="stylesheet" href="style.css" />
+<script src="SVGscript.js"></script>
 <script src="script.js"></script>
 
 </head>
@@ -30,13 +31,159 @@
 </header>
 
 
-<body>
+<body onload="getLot()">
   <div class="container"> 
     <h3>Citation East</h3> 
-    
-    <a>Spots available: 11</a><br>
+  <br>
+  <a> total spots: <a id="total"></a></a>
+  <br>
+  <a> open spots: <a id="open"></a></a>
+  <br>
         
-    <img style="width: 50%; margin-top: 80px;" src="svg/citationeast.svg" alt="Citation East">
+    <svg xmlns="http://www.w3.org/2000/svg" width="864" height="252" viewBox="0 0 864 252">
+  <defs>
+    <style>
+      .cls-1:nth-child(10n){
+          fill: #3bb53c;
+      }
+
+      .cls-1 {
+        fill: #999999;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c69c6d;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_2_copy_614" data-name="Rectangle 2 copy 614" class="cls-1" d="M280,78v25H266V78h14Z"/>
+  <path id="Rectangle_2_copy_655" data-name="Rectangle 2 copy 655" class="cls-1" d="M263,78v25H249V78h14Z"/>
+  <path id="Rectangle_2_copy_793" data-name="Rectangle 2 copy 793" class="cls-1" d="M263,78v25H249V78h14Z"/>
+  <path id="Rectangle_2_copy_820" data-name="Rectangle 2 copy 820" class="cls-1" d="M246,78v25H232V78h14Z"/>
+  <path id="Rectangle_2_copy_821" data-name="Rectangle 2 copy 821" class="cls-1" d="M229,78v25H215V78h14Z"/>
+  <path id="Rectangle_2_copy_615" data-name="Rectangle 2 copy 615" class="cls-1" d="M212,78v25H198V78h14Z"/>
+  <path id="Rectangle_2_copy_656" data-name="Rectangle 2 copy 656" class="cls-1" d="M195,78v25H181V78h14Z"/>
+  <path id="Rectangle_2_copy_794" data-name="Rectangle 2 copy 794" class="cls-1" d="M195,78v25H181V78h14Z"/>
+  <path id="Rectangle_2_copy_822" data-name="Rectangle 2 copy 822" class="cls-1" d="M178,78v25H164V78h14Z"/>
+  <path id="Rectangle_2_copy_616" data-name="Rectangle 2 copy 616" class="cls-1" d="M144,78v25H130V78h14Z"/>
+  <path id="Rectangle_2_copy_657" data-name="Rectangle 2 copy 657" class="cls-1" d="M127,78v25H113V78h14Z"/>
+  <path id="Rectangle_2_copy_795" data-name="Rectangle 2 copy 795" class="cls-1" d="M127,78v25H113V78h14Z"/>
+  <path id="Rectangle_2_copy_824" data-name="Rectangle 2 copy 824" class="cls-1" d="M110,78v25H96V78h14Z"/>
+  <path id="Rectangle_2_copy_825" data-name="Rectangle 2 copy 825" class="cls-1" d="M93,78v25H79V78H93Z"/>
+  <path id="Rectangle_2_copy_617" data-name="Rectangle 2 copy 617" class="cls-1" d="M76,78v25H62V78H76Z"/>
+  <path id="Rectangle_2_copy_658" data-name="Rectangle 2 copy 658" class="cls-1" d="M59,78v25H45V78H59Z"/>
+  <path id="Rectangle_2_copy_796" data-name="Rectangle 2 copy 796" class="cls-1" d="M59,78v25H45V78H59Z"/>
+  <path id="Rectangle_2_copy_826" data-name="Rectangle 2 copy 826" class="cls-1" d="M42,78v25H28V78H42Z"/>
+  <path id="Rectangle_2_copy_823" data-name="Rectangle 2 copy 823" class="cls-1" d="M161,78v25H147V78h14Z"/>
+  <path id="Rectangle_2_copy_827" data-name="Rectangle 2 copy 827" class="cls-1" d="M246,161v25H232V161h14Z"/>
+  <path id="Rectangle_2_copy_828" data-name="Rectangle 2 copy 828" class="cls-1" d="M229,161v25H215V161h14Z"/>
+  <path id="Rectangle_2_copy_619" data-name="Rectangle 2 copy 619" class="cls-1" d="M212,161v25H198V161h14Z"/>
+  <path id="Rectangle_2_copy_660" data-name="Rectangle 2 copy 660" class="cls-1" d="M195,161v25H181V161h14Z"/>
+  <path id="Rectangle_2_copy_798" data-name="Rectangle 2 copy 798" class="cls-1" d="M195,161v25H181V161h14Z"/>
+  <path id="Rectangle_2_copy_829" data-name="Rectangle 2 copy 829" class="cls-1" d="M178,161v25H164V161h14Z"/>
+  <path id="Rectangle_2_copy_620" data-name="Rectangle 2 copy 620" class="cls-1" d="M144,161v25H130V161h14Z"/>
+  <path id="Rectangle_2_copy_661" data-name="Rectangle 2 copy 661" class="cls-1" d="M127,161v25H113V161h14Z"/>
+  <path id="Rectangle_2_copy_799" data-name="Rectangle 2 copy 799" class="cls-1" d="M127,161v25H113V161h14Z"/>
+  <path id="Rectangle_2_copy_830" data-name="Rectangle 2 copy 830" class="cls-1" d="M110,161v25H96V161h14Z"/>
+  <path id="Rectangle_2_copy_831" data-name="Rectangle 2 copy 831" class="cls-1" d="M93,161v25H79V161H93Z"/>
+  <path id="Rectangle_2_copy_621" data-name="Rectangle 2 copy 621" class="cls-1" d="M76,161v25H62V161H76Z"/>
+  <path id="Rectangle_2_copy_662" data-name="Rectangle 2 copy 662" class="cls-1" d="M59,161v25H45V161H59Z"/>
+  <path id="Rectangle_2_copy_800" data-name="Rectangle 2 copy 800" class="cls-1" d="M59,161v25H45V161H59Z"/>
+  <path id="Rectangle_2_copy_832" data-name="Rectangle 2 copy 832" class="cls-1" d="M42,161v25H28V161H42Z"/>
+  <path id="Rectangle_2_copy_833" data-name="Rectangle 2 copy 833" class="cls-1" d="M161,161v25H147V161h14Z"/>
+  <path id="Rounded_Rectangle_3_copy_23" data-name="Rounded Rectangle 3 copy 23" class="cls-2" d="M541,61.706V90.294c0,7.017-3.134,12.706-7,12.706s-7-5.689-7-12.706V61.706C527,54.689,530.134,49,534,49S541,54.689,541,61.706Z"/>
+  <path id="Rounded_Rectangle_3_copy_24" data-name="Rounded Rectangle 3 copy 24" class="cls-2" d="M777,61.706V90.294c0,7.017-3.134,12.706-7,12.706s-7-5.689-7-12.706V61.706C763,54.689,766.134,49,770,49S777,54.689,777,61.706Z"/>
+  <path id="Rectangle_2_copy_618" data-name="Rectangle 2 copy 618" class="cls-1" d="M525,78v25H511V78h14Z"/>
+  <path id="Rectangle_2_copy_797" data-name="Rectangle 2 copy 797" class="cls-1" d="M508,78v25H494V78h14Z"/>
+  <path id="Rectangle_2_copy_834" data-name="Rectangle 2 copy 834" class="cls-1" d="M491,78v25H477V78h14Z"/>
+  <path id="Rectangle_2_copy_835" data-name="Rectangle 2 copy 835" class="cls-1" d="M474,78v25H460V78h14Z"/>
+  <path id="Rectangle_2_copy_622" data-name="Rectangle 2 copy 622" class="cls-1" d="M457,78v25H443V78h14Z"/>
+  <path id="Rectangle_2_copy_663" data-name="Rectangle 2 copy 663" class="cls-1" d="M440,78v25H426V78h14Z"/>
+  <path id="Rectangle_2_copy_801" data-name="Rectangle 2 copy 801" class="cls-1" d="M440,78v25H426V78h14Z"/>
+  <path id="Rectangle_2_copy_836" data-name="Rectangle 2 copy 836" class="cls-1" d="M423,78v25H409V78h14Z"/>
+  <path id="Rectangle_2_copy_623" data-name="Rectangle 2 copy 623" class="cls-1" d="M389,78v25H375V78h14Z"/>
+  <path id="Rectangle_2_copy_664" data-name="Rectangle 2 copy 664" class="cls-1" d="M372,78v25H358V78h14Z"/>
+  <path id="Rectangle_2_copy_665" data-name="Rectangle 2 copy 665" class="cls-1" d="M406,78v25H392V78h14Z"/>
+  <path id="Rectangle_2_copy_624" data-name="Rectangle 2 copy 624" class="cls-1" d="M710,78v25H696V78h14Z"/>
+  <path id="Rectangle_2_copy_802" data-name="Rectangle 2 copy 802" class="cls-1" d="M693,78v25H679V78h14Z"/>
+  <path id="Rectangle_2_copy_837" data-name="Rectangle 2 copy 837" class="cls-1" d="M676,78v25H662V78h14Z"/>
+  <path id="Rectangle_2_copy_838" data-name="Rectangle 2 copy 838" class="cls-1" d="M659,78v25H645V78h14Z"/>
+  <path id="Rectangle_2_copy_625" data-name="Rectangle 2 copy 625" class="cls-1" d="M642,78v25H628V78h14Z"/>
+  <path id="Rectangle_2_copy_666" data-name="Rectangle 2 copy 666" class="cls-1" d="M625,78v25H611V78h14Z"/>
+  <path id="Rectangle_2_copy_803" data-name="Rectangle 2 copy 803" class="cls-1" d="M625,78v25H611V78h14Z"/>
+  <path id="Rectangle_2_copy_839" data-name="Rectangle 2 copy 839" class="cls-1" d="M608,78v25H594V78h14Z"/>
+  <path id="Rectangle_2_copy_626" data-name="Rectangle 2 copy 626" class="cls-1" d="M574,78v25H560V78h14Z"/>
+  <path id="Rectangle_2_copy_667" data-name="Rectangle 2 copy 667" class="cls-1" d="M557,78v25H543V78h14Z"/>
+  <path id="Rectangle_2_copy_668" data-name="Rectangle 2 copy 668" class="cls-1" d="M591,78v25H577V78h14Z"/>
+  <path id="Rectangle_2_copy_627" data-name="Rectangle 2 copy 627" class="cls-1" d="M744,78v25H730V78h14Z"/>
+  <path id="Rectangle_2_copy_669" data-name="Rectangle 2 copy 669" class="cls-1" d="M727,78v25H713V78h14Z"/>
+  <path id="Rectangle_2_copy_670" data-name="Rectangle 2 copy 670" class="cls-1" d="M761,78v25H747V78h14Z"/>
+  <path id="Rectangle_2_copy_628" data-name="Rectangle 2 copy 628" class="cls-1" d="M525,50V75H511V50h14Z"/>
+  <path id="Rectangle_2_copy_804" data-name="Rectangle 2 copy 804" class="cls-1" d="M508,50V75H494V50h14Z"/>
+  <path id="Rectangle_2_copy_840" data-name="Rectangle 2 copy 840" class="cls-1" d="M491,50V75H477V50h14Z"/>
+  <path id="Rectangle_2_copy_841" data-name="Rectangle 2 copy 841" class="cls-1" d="M474,50V75H460V50h14Z"/>
+  <path id="Rectangle_2_copy_629" data-name="Rectangle 2 copy 629" class="cls-1" d="M457,50V75H443V50h14Z"/>
+  <path id="Rectangle_2_copy_671" data-name="Rectangle 2 copy 671" class="cls-1" d="M440,50V75H426V50h14Z"/>
+  <path id="Rectangle_2_copy_805" data-name="Rectangle 2 copy 805" class="cls-1" d="M440,50V75H426V50h14Z"/>
+  <path id="Rectangle_2_copy_842" data-name="Rectangle 2 copy 842" class="cls-1" d="M423,50V75H409V50h14Z"/>
+  <path id="Rectangle_2_copy_630" data-name="Rectangle 2 copy 630" class="cls-1" d="M389,50V75H375V50h14Z"/>
+  <path id="Rectangle_2_copy_672" data-name="Rectangle 2 copy 672" class="cls-1" d="M372,50V75H358V50h14Z"/>
+  <path id="Rectangle_2_copy_673" data-name="Rectangle 2 copy 673" class="cls-1" d="M406,50V75H392V50h14Z"/>
+  <path id="Rectangle_2_copy_631" data-name="Rectangle 2 copy 631" class="cls-1" d="M710,50V75H696V50h14Z"/>
+  <path id="Rectangle_2_copy_806" data-name="Rectangle 2 copy 806" class="cls-1" d="M693,50V75H679V50h14Z"/>
+  <path id="Rectangle_2_copy_843" data-name="Rectangle 2 copy 843" class="cls-1" d="M676,50V75H662V50h14Z"/>
+  <path id="Rectangle_2_copy_844" data-name="Rectangle 2 copy 844" class="cls-1" d="M659,50V75H645V50h14Z"/>
+  <path id="Rectangle_2_copy_632" data-name="Rectangle 2 copy 632" class="cls-1" d="M642,50V75H628V50h14Z"/>
+  <path id="Rectangle_2_copy_674" data-name="Rectangle 2 copy 674" class="cls-1" d="M625,50V75H611V50h14Z"/>
+  <path id="Rectangle_2_copy_807" data-name="Rectangle 2 copy 807" class="cls-1" d="M625,50V75H611V50h14Z"/>
+  <path id="Rectangle_2_copy_845" data-name="Rectangle 2 copy 845" class="cls-1" d="M608,50V75H594V50h14Z"/>
+  <path id="Rectangle_2_copy_633" data-name="Rectangle 2 copy 633" class="cls-1" d="M574,50V75H560V50h14Z"/>
+  <path id="Rectangle_2_copy_675" data-name="Rectangle 2 copy 675" class="cls-1" d="M557,50V75H543V50h14Z"/>
+  <path id="Rectangle_2_copy_676" data-name="Rectangle 2 copy 676" class="cls-1" d="M591,50V75H577V50h14Z"/>
+  <path id="Rectangle_2_copy_634" data-name="Rectangle 2 copy 634" class="cls-1" d="M744,50V75H730V50h14Z"/>
+  <path id="Rectangle_2_copy_677" data-name="Rectangle 2 copy 677" class="cls-1" d="M727,50V75H713V50h14Z"/>
+  <path id="Rectangle_2_copy_678" data-name="Rectangle 2 copy 678" class="cls-1" d="M761,50V75H747V50h14Z"/>
+  <path id="Rectangle_2_copy_679" data-name="Rectangle 2 copy 679" class="cls-1" d="M855,39H830V25h25V39Z"/>
+  <path id="Rectangle_2_copy_680" data-name="Rectangle 2 copy 680" class="cls-1" d="M855,56H830V42h25V56Z"/>
+  <path id="Rectangle_2_copy_681" data-name="Rectangle 2 copy 681" class="cls-1" d="M855,73H830V59h25V73Z"/>
+  <path id="Rectangle_2_copy_682" data-name="Rectangle 2 copy 682" class="cls-1" d="M855,90H830V76h25V90Z"/>
+  <path id="Rectangle_2_copy_683" data-name="Rectangle 2 copy 683" class="cls-1" d="M855,108H830V94h25v14Z"/>
+  <path id="Rectangle_2_copy_684" data-name="Rectangle 2 copy 684" class="cls-1" d="M855,125H830V111h25v14Z"/>
+  <path id="Rectangle_2_copy_685" data-name="Rectangle 2 copy 685" class="cls-1" d="M855,142H830V128h25v14Z"/>
+  <path id="Rectangle_2_copy_686" data-name="Rectangle 2 copy 686" class="cls-1" d="M855,159H830V145h25v14Z"/>
+  <path id="Rounded_Rectangle_3_copy_25" data-name="Rounded Rectangle 3 copy 25" class="cls-2" d="M693,167.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V167.118c0-3.379,3.134-6.118,7-6.118S693,163.739,693,167.118Z"/>
+  <path id="Rounded_Rectangle_3_copy_26" data-name="Rounded Rectangle 3 copy 26" class="cls-2" d="M424,167.118v13.764c0,3.379-3.134,6.118-7,6.118s-7-2.739-7-6.118V167.118c0-3.379,3.134-6.118,7-6.118S424,163.739,424,167.118Z"/>
+  <path id="Rectangle_2_copy_846" data-name="Rectangle 2 copy 846" class="cls-1" d="M794,162v25H780V162h14Z"/>
+  <path id="Rectangle_2_copy_635" data-name="Rectangle 2 copy 635" class="cls-1" d="M777,162v25H763V162h14Z"/>
+  <path id="Rectangle_2_copy_687" data-name="Rectangle 2 copy 687" class="cls-1" d="M760,162v25H746V162h14Z"/>
+  <path id="Rectangle_2_copy_688" data-name="Rectangle 2 copy 688" class="cls-1" d="M743,162v25H729V162h14Z"/>
+  <path id="Rectangle_2_copy_636" data-name="Rectangle 2 copy 636" class="cls-1" d="M828,162v25H814V162h14Z"/>
+  <path id="Rectangle_2_copy_689" data-name="Rectangle 2 copy 689" class="cls-1" d="M811,162v25H797V162h14Z"/>
+  <path id="Rectangle_2_copy_637" data-name="Rectangle 2 copy 637" class="cls-1" d="M726,162v25H712V162h14Z"/>
+  <path id="Rectangle_2_copy_690" data-name="Rectangle 2 copy 690" class="cls-1" d="M709,162v25H695V162h14Z"/>
+  <path id="Rectangle_2_copy_847" data-name="Rectangle 2 copy 847" class="cls-1" d="M644,162v25H630V162h14Z"/>
+  <path id="Rectangle_2_copy_638" data-name="Rectangle 2 copy 638" class="cls-1" d="M627,162v25H613V162h14Z"/>
+  <path id="Rectangle_2_copy_691" data-name="Rectangle 2 copy 691" class="cls-1" d="M610,162v25H596V162h14Z"/>
+  <path id="Rectangle_2_copy_692" data-name="Rectangle 2 copy 692" class="cls-1" d="M593,162v25H579V162h14Z"/>
+  <path id="Rectangle_2_copy_639" data-name="Rectangle 2 copy 639" class="cls-1" d="M678,162v25H664V162h14Z"/>
+  <path id="Rectangle_2_copy_693" data-name="Rectangle 2 copy 693" class="cls-1" d="M661,162v25H647V162h14Z"/>
+  <path id="Rectangle_2_copy_640" data-name="Rectangle 2 copy 640" class="cls-1" d="M576,162v25H562V162h14Z"/>
+  <path id="Rectangle_2_copy_694" data-name="Rectangle 2 copy 694" class="cls-1" d="M559,162v25H545V162h14Z"/>
+  <path id="Rectangle_2_copy_641" data-name="Rectangle 2 copy 641" class="cls-1" d="M508,162v25H494V162h14Z"/>
+  <path id="Rectangle_2_copy_695" data-name="Rectangle 2 copy 695" class="cls-1" d="M491,162v25H477V162h14Z"/>
+  <path id="Rectangle_2_copy_696" data-name="Rectangle 2 copy 696" class="cls-1" d="M474,162v25H460V162h14Z"/>
+  <path id="Rectangle_2_copy_642" data-name="Rectangle 2 copy 642" class="cls-1" d="M542,162v25H528V162h14Z"/>
+  <path id="Rectangle_2_copy_697" data-name="Rectangle 2 copy 697" class="cls-1" d="M525,162v25H511V162h14Z"/>
+  <path id="Rectangle_2_copy_643" data-name="Rectangle 2 copy 643" class="cls-1" d="M457,162v25H443V162h14Z"/>
+  <path id="Rectangle_2_copy_698" data-name="Rectangle 2 copy 698" class="cls-1" d="M440,162v25H426V162h14Z"/>
+  <path id="Rectangle_2_copy_644" data-name="Rectangle 2 copy 644" class="cls-1" d="M408,162v25H394V162h14Z"/>
+  <path id="Rectangle_2_copy_699" data-name="Rectangle 2 copy 699" class="cls-1" d="M391,162v25H377V162h14Z"/>
+</svg>
+
         
   </div> 
 </body>

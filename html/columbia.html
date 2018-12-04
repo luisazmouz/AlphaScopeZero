@@ -9,11 +9,10 @@
 <html lang="en">
 <link rel="stylesheet" href="style.css" />
 <script src="SVGscript.js"></script>
-<script src="script.js"></script>
 
 </head>
   
-<header>
+<header >
   <div class="name">
       <a style="text-decoration: none; color: #FFFFFF" href="home.html"> Eagle Park</a>
         <a class="navText" href="citationcenter.html"id="">Citation Center</a>
@@ -23,9 +22,11 @@
         <a class="navText" href="concorde.html"id="">Concorde</a>
         <a class="navText" href="voyager.html"id="">Voyager</a>
   </div>
-  <div class="menuSquare" onclick="menu()"></div>
-  <!-- <div class="menu" onclick="menu()"></div> -->
-  <div class="menu" onclick="menu()"></div>
+
+  <div class="menu" onclick="menu()">
+    <div class="menuTop"></div>
+    <div class="menuBottom"></div>
+  </div>
 
 
 </header>
@@ -38,27 +39,10 @@
     <br>
     <a> open spots: <a id="open"></a></a>
     <br>
-    
-    <svg xmlns="http://www.w3.org/2000/svg" width="60%" height="864" viewBox="0 350 2016 864">
-  <defs>
-    <style>
-      .cls-1:nth-child(20n){
-          fill: #3bb53c;
-      }
 
-      .cls-1 {
-        fill: #999999;
-      }
 
-      .cls-2, .cls-1 {
-        fill-rule: evenodd;
-      }
+    <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="400" viewBox="100 0 1500 1000" class="columbia">
 
-      .cls-2 {
-        fill: #c69c6d;
-      }
-    </style>
-  </defs>
   <path id="Rounded_Rectangle_3_copy_40" data-name="Rounded Rectangle 3 copy 40" class="cls-2" d="M1695,687.118v13.764c0,3.379-3.13,6.118-7,6.118s-7-2.739-7-6.118V687.118c0-3.379,3.13-6.118,7-6.118S1695,683.739,1695,687.118Z"/>
   <path id="Rounded_Rectangle_3_copy_41" data-name="Rounded Rectangle 3 copy 41" class="cls-2" d="M1964,687.118v13.764c0,3.379-3.13,6.118-7,6.118s-7-2.739-7-6.118V687.118c0-3.379,3.13-6.118,7-6.118S1964,683.739,1964,687.118Z"/>
   <path id="Rectangle_2_copy_738" data-name="Rectangle 2 copy 738" class="cls-1" d="M1949,682v25h-14V682h14Z"/>

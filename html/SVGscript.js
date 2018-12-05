@@ -25,7 +25,7 @@ function getLot(){
   setTimeout(getLot, 10000);
 
   for(var p = 0; p < getSpots.length;p++){
-  getSpots[p].style.fill = "#737373";
+  getSpots[p].style.fill = "#d0d0d0";
   }
 
   if(!firstLoad){

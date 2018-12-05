@@ -22,6 +22,7 @@ function getLot(){
   var time = new Date();
 
 
+  setTimeout(getLot, 20000);
 
   for(var p = 0; p < getSpots.length;p++){
   getSpots[p].style.fill = "#737373";

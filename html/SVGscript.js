@@ -1,39 +1,30 @@
   
   var open;
   var total;
-
+  var firstLoad = false;
   var rndm15;
   var spotCounter = new Array();
   var getSpots = document.getElementsByClassName("cls-1");
   var getIle = document.getElementsByClassName("cls-2");
-  var crntLotCpty;
-
-  var x = document.getElementsByClassName("navText");
-  var form = document.getElementsByClassName("contactLabel");
-  var resized = true;
-  var menuTop = document.getElementsByClassName("menuTop");
-  var menuBottom = document.getElementsByClassName("menuBottom");
-  window.onresize = displayMenu;
-  var firstLoad = false;
 
 
   function getLot(){ 
 
+    console.log(getCookie("login"));
+
+
     var time = new Date();
 
 
-    setTimeout(getLot, 2000);
+    // setTimeout(getLot, 5000);
 
-    if(firstLoad){
+
+    if(!firstLoad){
       menu();
       displayMenu();
       firstLoad = true;
-   }
-
-    for (var i = 0; i < form.length; i++) {
-           form[i].style.animation = "fadein 50ms ease-in "+((i*200)+800)+"ms forwards";
-           form[i].style.opacity = 1;
     }
+
     
     //sets total to lot spot count and open to 0 by default
     document.getElementById("total").innerHTML = getSpots.length;
@@ -64,69 +55,6 @@
 
     }
   }
-
-
-function displayMenu(){
-
-  console.log("displayMenu loaded");
-  
-  if(document.documentElement.clientWidth > 950){
-
-    console.log("window > 950");
-
-
-    menuTop[0].classList.remove('toggle');
-    menuBottom[0].classList.remove('toggle')
-
-    for (var i = 0; i < x.length; i++) {
-         x[i].style.animation = "fadein 50ms ease-in "+((i*200)+800)+"ms forwards";
-         x[i].style.display = "inline-block";
-         x[i].style.color = "#FFF";
-
-    }
-    resized = false;
-
-  }else{
-
-     console.log("window < 950");
-
-    if(!resized){
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
-        x[i].style.color = "#000"; 
-      }
-      resized = true;
-    }
-  }
-}
-
-
-function menu(){
-
-  console.log("menu loaded");
-
-  if(document.documentElement.clientWidth <= 950){
-
-    console.log("window < 800");
-
-    for (i = 0; i < x.length; i++) {
-      if (x[i].style.display === "none") {
-        x[i].style.display = "block";
-        x[i].style.animation = "fadein 50ms ease-in "+((i*200)+400)+"ms forwards";
-         
-        document.getElementsByClassName("menuTop")[0].classList.add('toggle');
-        document.getElementsByClassName("menuBottom")[0].classList.add('toggle');
-      }else{
-        x[i].style.display = "none";
-
-        document.getElementsByClassName("menuTop")[0].classList.remove('toggle');
-        document.getElementsByClassName("menuBottom")[0].classList.remove('toggle');
-      }
-    }
-  }
-}
-
-
 
 
 
@@ -160,6 +88,12 @@ function menu(){
         getIle[j].style.fill = "#c69c6d";  
 
   }
+
+function getCookie(name) {
+  var value = "; " + document.cookie;
+  var parts = value.split("; " + name + "=");
+  if (parts.length == 2) return parts.pop().split(";").shift();
+}
 
 
 

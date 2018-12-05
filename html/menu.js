@@ -1,79 +1,94 @@
 
-window.onresize = displayMenu;
-var x = document.getElementsByClassName("navText");
-var form = document.getElementsByClassName("contactLabel");
-var resized = true;
 
-console.log(x);
+  var x = document.getElementsByClassName("navText");
+  var form = document.getElementsByClassName("contactLabel");
+  var resized = true;
+  var menuTop = document.getElementsByClassName("menuTop");
+  var menuBottom = document.getElementsByClassName("menuBottom");
+  var fill = document.getElementsByClassName("fill");
+  var title = document.getElementsByClassName("name");
+  window.onresize = displayMenu;
 
-function mainFunctions(){
-	menu();
-	displayMenu();
-	for (var i = 0; i < form.length; i++) {
-		     form[i].style.animation = "fadein 50ms ease-in "+((i*200)+800)+"ms forwards";
-		     form[i].style.opacity = 1;
-	}
 
-}
+function displayMenu(){
 
-function cookies() {
-	alert("loaded");
+  console.log("displayMenu loaded");
+  
+  if(document.documentElement.clientWidth > 950){
+
+    console.log("window > 950");
+
+    menuTop[0].classList.remove('toggle');
+    menuBottom[0].classList.remove('toggle')
+
+    fill[0].style['background'] = "#a29065";
+    title[0].style.width = "180px";
+    title[0].style['padding-left'] = "3%";
+    title[0].style.float = "left";
+
+    for (var i = 0; i < x.length; i++) {
+      x[i].style.animation = "fadein 50ms ease-in "+((i*200)+800)+"ms forwards";
+      x[i].style.display = "inline-block";
+      x[i].style.color = "#FFF";
+    }
+    resized = false;
+
+  }else{
+
+    console.log("window < 950");
+
+    fill[0].style['background'] = "none";
+
+    title[0].style.width = "100%";
+    title[0].style['padding-left'] = "0%";
+    title[0].style.float = "none";
+    title[0].style.textAlign = "center";
+
+    if(!resized){
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+        x[i].style.color = "#000"; 
+      }
+      resized = true;
+
+    }
+  }
 }
 
 
 function menu(){
 
-	if(document.documentElement.clientWidth <= 800){
+  console.log("menu loaded");
+  
+  if(document.documentElement.clientWidth <= 950){
 
-		for (i = 0; i < x.length; i++) {
-		  if (x[i].style.display === "none") {
-		  	x[i].style.display = "block";
-		  	x[i].style.animation = "fadein 50ms ease-in "+((i*200)+400)+"ms forwards";
-		     
-		    document.getElementsByClassName("menuTop")[0].classList.add('toggle');
-		    document.getElementsByClassName("menuBottom")[0].classList.add('toggle');
-		  }else{
-		  	x[i].style.display = "none";
+    console.log("window << 950");
 
-		    document.getElementsByClassName("menuTop")[0].classList.remove('toggle');
-		    document.getElementsByClassName("menuBottom")[0].classList.remove('toggle');
-		  }
-		}
-	}
-}
+    for (i = 0; i < x.length; i++) {
+      if (x[i].style.display === "none") {
+        x[i].style.display = "block";
+        x[i].style.animation = "fadein 50ms ease-in "+((i*200)+400)+"ms forwards";
+        x[i].style.color = "#000"; 
+         
+        menuTop[0].classList.add('toggle');
+        menuBottom[0].classList.add('toggle');
+        fill[0].style['background'] = "none";
 
-function displayMenu(){
-	
-	if(document.documentElement.clientWidth > 800){
 
-		document.getElementsByClassName("menuTop")[0].classList.remove('toggle');
-		document.getElementsByClassName("menuBottom")[0].classList.remove('toggle')
+      }else{
+        x[i].style.display = "none";
+        fill[0].style['background'] = "none";
 
-		for (var i = 0; i < x.length; i++) {
-		     x[i].style.animation = "fadein 50ms ease-in "+((i*200)+800)+"ms forwards";
-		     x[i].style.display = "inline-block";
+        menuTop[0].classList.remove('toggle');
+        menuBottom[0].classList.remove('toggle');
+      }
 
-		}
-		resized = false;
+    }
+  }
 
-	}else{
-
-		if(!resized){
-			for (i = 0; i < x.length; i++) {
-				x[i].style.display = "none"; 
-			}
-			resized = true;
-		}
-	}
 }
 
 
 
 
-// var w = window,
-//     d = document,
-//     e = d.documentElement,
-//     g = d.getElementsByTagName('body')[0],
-//     x = w.innerWidth  || e.clientWidth || g.clientWidth,
-//     y = w.innerHeight || e.clientHeight|| g.clientHeight;
-// alert(x + ' × ' + y);
+

@@ -8,32 +8,38 @@
 <meta charset="UTF-8"> 
 <html lang="en">
 <link rel="stylesheet" href="homeStyle.css" />
-<link rel="stylesheet" href="keyframes.css" />
-<script src="script.js"></script>
+<script src="login.js"></script>
+<script src="SVGscript.js"></script>
+
 <div class="name">Eagle Park</div>
 </head>
 
   
 
 <body>
-  <div class="container" style="height: 450px">  
+  <div class="container" style="height: 500px">  
      
     <section>
-        
+       
         <div class="login">
+
+          <div style="text-transform: uppercase; position: absolute; left: 0; right: 0; margin: auto; margin-top: 240px; font-size: 18px;" id = "failed"></div>
+
           <br><a style="font-size: 14px; line-height: 50px; display: block;">Enter your ERAU decal & ID</a>
           
           </form>
 
-              <form method="post" action="home.html" >
-              <input type="text" id="login" name="name" placeholder="tag number" required="required" >
-              <input type="text" id="login" name="email" placeholder="student number" required="required">
+              <form method="post" action="JavaScript:loginAttempt()" >
+              <input type="text" id="tag" name="name" placeholder="tag number" required="required" >
+              <input type="text" id="erauid" name="email" placeholder="student number" required="required">
               <input id="contactLabel" type="submit" value="Login" >
 
           </form>
+          
+
        
         </div>
-        
+
    </div>
 
     </section>

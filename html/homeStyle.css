@@ -305,42 +305,57 @@ input[type=submit]:hover {
 
 /* * * * * * * * * menu * * * * * * * * */
 
-.menu:before{
-  content: "";
-  position: absolute;
-  top: 0px;
-  height: 2px;
-  width: 21px;
-  background:rgba(0,0,0,.6);
-  transform: translateX(-10.5px);
-  transition: all 0.2s;
-  /*-webkit-transform: translateX(0);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);*/
+
+.menu:hover, .menu:focus{
+	cursor: pointer;
+
 }
 
-.menu:after{
-  content: "";
-  position: absolute;
-  top: 10px;
-  height: 2px;
-  width: 21px;
-  background: rgba(0,0,0,.6);
-  transform: translateX(-10.5px);
-  transform-origin: top;
-  transition: all 0.2s;
+.menuTop{
+	position: relative;
+ 	top: 5px;
+ 	height: 2px;
+ 	width: 21px;
+ 	background:#000000;
+ 	transition: .6s;
+ 	margin: 0 auto;
 }
 
-.menu:hover:before {
-	 background:rgba(226, 62, 34,1);
-     transform: rotate(405deg) translateY(7px) translateX(-6px);
-     transform-origin: top;
+.menuBottom{
+ 	position: relative;
+ 	top: 15px;
+ 	height: 2.5px;
+ 	width: 21px;
+ 	background: #000000;
+ 	transform-origin: top;
+ 	transition: 1.3s;
+ 	margin: 0 auto;
 }
 
-.menu:hover:after {
-	 background: rgba(226, 62, 34,1);
-	 transform-origin: top;
-     transform: rotate(-45deg) translateY(-14px) translateX(-1px);
+.menu:hover .menuTop, .menu:hover .menuBottom{
+	background: rgba(0,0,0,.3);
+	transition: .3s;
+}
+
+.menuTop.toggle {
+
+
+	background:rgba(240, 62, 34,1);
+    transform: rotate(45deg) translateY(7.5px) translateX(9.5px);
+    transform-origin: top;
+    transition: .5s;
+}
+.menuBottom.toggle  {
+	background: rgba(240, 62, 34,1);
+    transform: rotate(-405deg) translateY(0px) translateX(0px);
+    transform-origin: top;
+    transition: 1s;
+    margin-bottom: 60px;
+}
+
+.menu:hover .menuTop.toggle, .menu:hover .menuBottom.toggle{
+	background:rgba(190, 62, 34,1);
+	transition: .3s;
 }
 
 

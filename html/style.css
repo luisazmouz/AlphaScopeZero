@@ -25,12 +25,12 @@ h1{
 
 .cls-1:nth-child(n){
     fill: #FFFFFF;
-    transition: 1s ease-in;
+    transition: 2s ease-in;
  }
 
 .cls-2:nth-child(n) {
     fill: #FFFFFF;
-    transition: 3s ease-in;
+    transition: 4s ;
 }
 
 body{

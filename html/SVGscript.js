@@ -10,14 +10,9 @@
 
   function getLot(){ 
 
-    console.log(getCookie("login"));
-
-
     var time = new Date();
 
-
     // setTimeout(getLot, 5000);
-
 
     if(!firstLoad){
       menu();
@@ -36,6 +31,7 @@
     //from 8 to 11 AM Mon-Fri
     if (time.getDay()>0 && time.getDay()<6){
       if(time.getHours()>7 && time.getHours() <12){
+        lotFull();
         if(time.getMinutes()>44 || time.getMinutes() < 16){
           if(time.getSeconds()<21){
 ;
@@ -75,14 +71,14 @@
 
 
   }
-
-
+  //empty color #d0d0d0
+  //full color #3BB53B
   function lotFull(){
     
     console.log("lotFull loaded");
     document.getElementById("open").innerHTML = 0;
     for(var j = 0; j < getSpots.length;j++)
-        getSpots[j].style.fill = "#d0d0d0";  
+        getSpots[j].style.fill = "#3BB53B";  
 
     for(var j = 0; j < getIle.length;j++)
         getIle[j].style.fill = "#c69c6d";  

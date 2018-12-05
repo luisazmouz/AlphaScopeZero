@@ -22,7 +22,7 @@ function getLot(){
   var time = new Date();
 
 
-  setTimeout(getLot, 20000);
+  setTimeout(getLot, 10000);
 
   for(var p = 0; p < getSpots.length;p++){
   getSpots[p].style.fill = "#737373";
@@ -87,22 +87,18 @@ function getLot(){
           console.log(openspots);
       document.getElementById("open").innerHTML = openspots;
       for(var j = 0; j < openspots;j++){
-      getSpots[j].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
       }
-      for(var p = openspots; p < getSpots.length;p++){
-      getSpots[p].style.fill = "#737373";
-      }
+
 
     }else if(time.getHours()>=21 && time.getHours()<0){
       openspots = Math.floor(getSpots.length / 1.3);
           console.log(openspots);
       document.getElementById("open").innerHTML = openspots;
       for(var j = 0; j < openspots;j++){
-      getSpots[j].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
       }
-      for(var p = openspots; p < getSpots.length;p++){
-      getSpots[p].style.fill = "#737373";
-      }
+
     }
   }
 
@@ -183,7 +179,7 @@ function lot020(){
     openspots = 2;
    document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 }
 
@@ -191,7 +187,7 @@ function lot2040(){
     openspots = 4;
     document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 }
 
@@ -199,7 +195,7 @@ function lot4060(){
     openspots = 1;
     document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 
 }
@@ -208,7 +204,7 @@ function lot4060(){
     openspots = 6;
    document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 }
 
@@ -216,7 +212,7 @@ function lotlate2040(){
     openspots = 10;
     document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 }
 
@@ -224,7 +220,7 @@ function lotlate4060(){
     openspots = 4;
     document.getElementById("open").innerHTML = openspots ;
    for(var j = 0; j < openspots;j++)
-      getSpots[Math.floor(Math.random() * getSpots.length) + 1].style.fill = "#3BB53B";
+      getSpots[Math.floor(Math.random() * getSpots.length)].style.fill = "#3BB53B";
 
 
 }

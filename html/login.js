@@ -14,7 +14,7 @@ function loginAttempt(){
 	var erauid = document.getElementById("erauid").value;
 
 
-	var loginData = "1234567\t7654321\nzzzz\tqqqq\n";
+	var loginData = "3004140\t0000000\nerau\tadmin\n";
 	var ident = loginData.split("\n");
 	for(var i=0; i<ident.length; i++){
 		var res = ident[i].split("\t");

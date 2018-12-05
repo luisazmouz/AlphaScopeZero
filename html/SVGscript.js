@@ -28,7 +28,7 @@ function getLot(){
   getSpots[p].style.fill = "#737373";
   }
 
-  if(firstLoad){
+  if(!firstLoad){
     menu();
     displayMenu();
     firstLoad = true;

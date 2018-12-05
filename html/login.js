@@ -18,6 +18,8 @@ function loginAttempt(){
 	var ident = loginData.split("\n");
 	for(var i=0; i<ident.length; i++){
 		var res = ident[i].split("\t");
+      if(tag=="erau"&& erauid=="admin")
+        document.location = "admin.html";
   		if(tag==res[0] && erauid==res[1]){
         document.cookie = "login=true";
   			document.location = "home.html";
@@ -29,3 +31,6 @@ function loginAttempt(){
 
 
 }
+
+
+      

@@ -89,7 +89,7 @@ function getLot(){
       for(var j = 0; j < openspots;j++){
       getSpots[j].style.fill = "#3BB53B";
       }
-      for(var p = openspots; p <= getSpots.length;p++){
+      for(var p = openspots; p < getSpots.length;p++){
       getSpots[p].style.fill = "#737373";
       }
 
@@ -100,7 +100,7 @@ function getLot(){
       for(var j = 0; j < openspots;j++){
       getSpots[j].style.fill = "#3BB53B";
       }
-      for(var p = openspots; p <= getSpots.length;p++){
+      for(var p = openspots; p < getSpots.length;p++){
       getSpots[p].style.fill = "#737373";
       }
     }
